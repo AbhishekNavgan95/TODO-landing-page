@@ -32,14 +32,14 @@ const Hero = () => {
 
                 <div className='flex flex-col xl:flex-row items-stretch gap-y-3 md:gap-5 px-3'>
 
-                    <div className='bg-pink-500 w-full cols-span-2 text-white p-10 md:p-12 rounded-3xl flex flex-col gap-7 md:gap-10'>
+                    <div className='bg-pink-500 w-full cols-span-2 text-white p-7 md:p-12 rounded-3xl flex flex-col gap-7 md:gap-10'>
                         <span>
                             <h2 className='text-6xl xl:text-8xl text-gray-200 opacity-70'>Organize.</h2>
                             <h2 className='text-6xl xl:text-8xl text-gray-200'>Acheive.</h2>
                             <h2 className='text-6xl xl:text-8xl text-gray-200'>Relax.</h2>
                         </span>
                         <p className='text-lg font-light w-full md:w-[90%]'>Turn clutter into clarity, chaos into control, and dreams into done.bold visions into market success</p>
-                        <span className='flex items-start gap-5 mt-7 md:mt-10'>
+                        <span className='flex items-start gap-2 md:gap-5 mt-7 md:mt-10'>
                             <Button variant='outline' style="text-sm font-semibold text-black py-3 px-5" rounded={true} >Get Started Today</Button>
                             <Button variant='default' style="bg-pink-400 text-sm font-semibold py-3 px-5" rounded={true}>Discover Features </Button>
                         </span>

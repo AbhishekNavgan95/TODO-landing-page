@@ -22,7 +22,7 @@ const Footer = () => {
                             <input type="text" className='border border-gray-800 py-2 px-2 w-full max-w-[400px]' placeholder='Your email here...' />
                             <Button rounded={false}>Join</Button>
                         </span>
-                        <p className='text-xs pt-3'>By subscribing, you consent to our Privacy Policy and agree to receive updates.</p>
+                        <p className='text-xs pt-3 text-center md:text-start'>By subscribing, you consent to our Privacy Policy and agree to receive updates.</p>
                     </div>
 
                     <div className='flex flex-wrap flex-row justify-evenly gap-x-5 gap-y-10 items-center w-full '>
@@ -56,7 +56,7 @@ const Footer = () => {
 
                 <div className='flex justify-between items-center text-sm pb-5 md:pb-10 flex-col-reverse md:flex-row gap-y-5'> 
                     <p>© 2024 Osumare. All rights reserved.</p>
-                    <span className='flex gap-10 items-center underline'>
+                    <span className='flex gap-5 md:gap-10 items-center text-center md:text-start underline'>
                         <a>Privacy Policy</a>
                         <a>Terms of Service</a>
                         <a>Cookie Settings</a>
